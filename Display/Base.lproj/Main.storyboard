@@ -3,11 +3,60 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="cyi-uR-fHX">
+            <objects>
+                <viewController id="7Nz-1f-JWE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="afm-Hj-qJT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FqG-dh-H8v">
+                                <rect key="frame" x="53" y="703" width="114" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VlT-1l-L97">
+                                <rect key="frame" x="254" y="718" width="51" height="31"/>
+                            </switch>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ananas" translatesAutoresizingMaskIntoConstraints="NO" id="WUO-x0-gaE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="652"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gyF-gS-PYB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="VlT-1l-L97" firstAttribute="leading" secondItem="FqG-dh-H8v" secondAttribute="trailing" constant="87" id="6te-cB-LOU"/>
+                            <constraint firstItem="gyF-gS-PYB" firstAttribute="trailing" secondItem="FqG-dh-H8v" secondAttribute="trailing" constant="247" id="BIM-g9-uzM"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="trailing" secondItem="gyF-gS-PYB" secondAttribute="trailing" id="C49-DS-cri"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="trailing" secondItem="gyF-gS-PYB" secondAttribute="trailing" id="DPQ-SU-Glf"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="top" secondItem="afm-Hj-qJT" secondAttribute="topMargin" id="ENC-aG-th8"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="leading" secondItem="gyF-gS-PYB" secondAttribute="leading" id="Ela-pw-Dpu"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="leading" secondItem="gyF-gS-PYB" secondAttribute="leading" id="GDK-3i-BqH"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="top" secondItem="gyF-gS-PYB" secondAttribute="top" id="MRJ-vw-QZW"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="leading" secondItem="gyF-gS-PYB" secondAttribute="leading" id="TWY-zU-Hrv"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="trailing" secondItem="gyF-gS-PYB" secondAttribute="trailing" id="VbI-oK-r8C"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="top" secondItem="gyF-gS-PYB" secondAttribute="top" constant="-20" id="gRg-6G-N9d"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="top" secondItem="afm-Hj-qJT" secondAttribute="topMargin" id="gWS-Wu-IbT"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="leading" secondItem="gyF-gS-PYB" secondAttribute="leading" id="x5N-qG-QcM"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="top" secondItem="afm-Hj-qJT" secondAttribute="top" id="xvd-VY-FVO"/>
+                            <constraint firstItem="WUO-x0-gaE" firstAttribute="trailing" secondItem="gyF-gS-PYB" secondAttribute="trailing" id="zXw-Es-kln"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rP8-uB-esl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-713.04347826086962" y="66.294642857142861"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -66,6 +115,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ananas" width="512" height="512"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

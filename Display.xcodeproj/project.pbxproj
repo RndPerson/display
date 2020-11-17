@@ -13,6 +13,7 @@
 		84FDA1F1256414140021501D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1EF256414140021501D /* Main.storyboard */; };
 		84FDA1F3256414520021501D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1F2256414520021501D /* Assets.xcassets */; };
 		84FDA1F6256414520021501D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1F4256414520021501D /* LaunchScreen.storyboard */; };
+		84FDA2002564176D0021501D /* newView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1FF2564176D0021501D /* newView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84FDA1F2256414520021501D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FDA1F5256414520021501D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FDA1F7256414520021501D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDA1FF2564176D0021501D /* newView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				84FDA1EB256414140021501D /* SceneDelegate.swift */,
 				84FDA1ED256414140021501D /* ViewController.swift */,
 				84FDA1EF256414140021501D /* Main.storyboard */,
+				84FDA1FF2564176D0021501D /* newView.xib */,
 				84FDA1F2256414520021501D /* Assets.xcassets */,
 				84FDA1F4256414520021501D /* LaunchScreen.storyboard */,
 				84FDA1F7256414520021501D /* Info.plist */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FDA1F6256414520021501D /* LaunchScreen.storyboard in Resources */,
+				84FDA2002564176D0021501D /* newView.xib in Resources */,
 				84FDA1F3256414520021501D /* Assets.xcassets in Resources */,
 				84FDA1F1256414140021501D /* Main.storyboard in Resources */,
 			);
